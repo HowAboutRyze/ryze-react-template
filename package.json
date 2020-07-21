@@ -1,0 +1,33 @@
+{
+  "name": "ryze-react-tempalte",
+  "version": "1.0.0",
+  "description": "react template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "easy dev",
+    "build": "easy build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HowAboutRyze/ryze-react-tempalte.git"
+  },
+  "keywords": [
+    "react",
+    "template"
+  ],
+  "author": "lizhongwei157@163.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HowAboutRyze/ryze-react-tempalte/issues"
+  },
+  "homepage": "https://github.com/HowAboutRyze/ryze-react-tempalte#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@easy-team/easywebpack-cli": "^4.5.2",
+    "@easy-team/easywebpack-react": "^4.1.1",
+    "imagemin-webpack-plugin": "^2.4.2"
+  }
+}
