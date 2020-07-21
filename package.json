@@ -4,8 +4,8 @@
   "description": "react template",
   "main": "index.js",
   "scripts": {
-    "dev": "easy dev",
-    "build": "easy build"
+    "dev": "ryze dev",
+    "build": "ryze build"
   },
   "repository": {
     "type": "git",
@@ -26,8 +26,8 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "@easy-team/easywebpack-cli": "^4.5.2",
     "@easy-team/easywebpack-react": "^4.1.1",
-    "imagemin-webpack-plugin": "^2.4.2"
+    "imagemin-webpack-plugin": "^2.4.2",
+    "ryze-cli": "0.0.3"
   }
 }
