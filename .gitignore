@@ -6,13 +6,11 @@ coverage/
 run/
 .DS_Store
 *.swp
-.vscode
 *.iml
 config
 temp
 .nyc_output
 coverage.lcov
-.vscode
 dist/
 package-lock.json
 yarn.lock
