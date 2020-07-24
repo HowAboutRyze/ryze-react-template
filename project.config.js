@@ -1,7 +1,8 @@
 module.exports = {
-  name: 'li lei',
-  list: [
-    'npm',
+  appName: 'ryze-react-template',
+  keys: [
+    'react',
     'git',
-  ],
+    'template'
+  ]
 };

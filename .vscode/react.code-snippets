@@ -20,7 +20,7 @@
 		"body": [
 			"import React from 'react';",
 			"",
-			"export default function ${1:$TM_FILENAME_BASE}(props) {",
+			"export default function ${1:${TM_FILENAME_BASE/^\\w/${0:/upcase}/}}(props) {",
 			"\treturn (",
     	"\t\t<div className=\"$2\">$3</div>",
 			"\t);",
@@ -34,7 +34,7 @@
 		"body": [
 			"import React, { Component } from 'react';",
 			"",
-			"export default class ${1:$TM_FILENAME_BASE} extends Component {",
+			"export default class ${1:${TM_FILENAME_BASE/^\\w/${0:/upcase}/}} extends Component {",
 			"\trender() {",
 			"\t\treturn (",
     	"\t\t\t<div className=\"$2\">$3</div>",
