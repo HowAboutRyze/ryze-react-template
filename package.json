@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "ryze dev",
     "build": "ryze build",
-    "mock": "ryze server -d mock"
+    "mock": "ryze server -d mock",
+    "release": "npm version patch -m 'release' && git push --follow-tags"
   },
   "repository": {
     "type": "git",
@@ -28,7 +29,8 @@
   },
   "devDependencies": {
     "@easy-team/easywebpack-react": "^4.1.1",
+    "html-webpack-alter-plugin": "0.0.5",
     "imagemin-webpack-plugin": "^2.4.2",
-    "ryze-cli": "0.0.3"
+    "ryze-cli": "^0.0.6"
   }
 }
